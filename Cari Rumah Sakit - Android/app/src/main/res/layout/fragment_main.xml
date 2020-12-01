@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.kelompok3.carirumahsakit.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="251dp"
+        android:layout_height="240dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/undraw_medicine_b1ol" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="12dip"
+        android:text="(Izinkan Akses Lokasi)" />
+
+    <Button
+        android:id="@+id/B_cari"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/button"
+        android:text="Cari Rumah Sakit Terdekat"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/B_data"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/B_cari"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="89dp"
+        android:background="@drawable/button_cari"
+        android:text="Lihat Data RS"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
